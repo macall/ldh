@@ -27,82 +27,89 @@
             </div>
         </div>
         <div class="ho_centent">
-    <div class="fl hotai_left">
-        <ul>
-            <li class="no"><a href="admin_user_list.html">用户列表</a> </li>
-            <li><a href="admin_order_list.html">订单列表</a> </li>
-        </ul>
-    </div>
-    <div class="right">
-        <a href="#">导出excel</a>
-        <table class="table table-striped table-bordered" width="100%">
-            <thead>
-            <tr>
-                <td>用户id</td>
-                <td>姓名</td>
-                <td class="dianhu">电话</td>
-                <td class="diz">地址</td>
-                <td>注册时间</td>
-                <td>成功分享次数</td>
-                <td>购买次数</td>
+            <div class="fl hotai_left">
+                <ul>
+                    <li><a href="admin_index.html">系统主页</a> </li>
+                    <li class="no"><a href="admin_user_list.html">用户列表</a> </li>
+                    <li><a href="admin_order_list.html">订单列表</a> </li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="#">导出excel</a>
+                <table class="table table-striped table-bordered" width="100%">
+                    <thead>
+                        <tr>
+                            <td>用户id</td>
+                            <td>姓名</td>
+                            <td class="dianhu">电话</td>
+                            <td class="diz">地址</td>
+                            <td>注册时间</td>
+                            <td>成功分享次数</td>
+                            <td>购买次数</td>
 
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1.</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-                <td>2011-12-12</td>
-                <td>￥1000</td>
-                <td>@jS</td>
-            </tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                            <td>2011-12-12</td>
+                            <td>￥1000</td>
+                            <td>@jS</td>
+                        </tr>
 
-            </tbody>
-        </table>
-        <ul>
-            <li>
-                <a href="#">首页</a>
-                <a href="#">上一页</a>
-                <a class="no"  href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">...</a>
-                <a href="#">4</a>
-                <a href="#">下一页</a>
-                <a href="#">尾页</a>
-            </li>
-        </ul>
-    </div>
-</div>
+                    </tbody>
+                </table>
+                <ul>
+                    <li>
+                        <a href="#">首页</a>
+                        <a href="#">上一页</a>
+                        <a class="no"  href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">...</a>
+                        <a href="#">4</a>
+                        <a href="#">下一页</a>
+                        <a href="#">尾页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div id="footer">Copyright &copy; 2014 左右互联订单管理系统</div>
+        <script>
+            $(function () {
+                var hrightobg = $(window).height();
+                $(".hotai_left").height(hrightobg)
+            })
+        </script>
     </body>
 </html>

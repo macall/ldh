@@ -33,31 +33,38 @@
         <div class="ho_centent">
             <div class="fl hotai_left">
                 <ul>
-                    <li class="no"><a href="admin_user_list.html">用户列表</a> </li>
+                    <li class="no"><a href="admin_index.html">系统主页</a> </li>
+                    <li><a href="admin_user_list.html">用户列表</a> </li>
                     <li><a href="admin_order_list.html">订单列表</a> </li>
                 </ul>
             </div>
             <div class="right right_1">
                 <ul>
                     <li>
-                        <p  class="fl"><span>尊敬的用户：</span><i>张二蛋</i></p>
-                        <p class="fr"> <span>当前订单总量：</span><i>500</i></p>
+                        <p  class="fl"><span>尊敬的用户：</span><i><?php echo $admin['nickname']?></i></p>
+                        <p class="fr"> <span>当前订单总量：</span><i><?php echo $order['total']?></i></p>
                     </li>
                     <li>
-                        <p class="fl"> <span>已处理订单：</span><i>500</i></p>
-                        <p class="fr"><span>未处理订单：</span><i>500</i></p>
+                        <p class="fl"> <span>已处理订单：</span><i><?php echo $order['done']?></i></p>
+                        <p class="fr"><span>未处理订单：</span><i><?php echo $order['pending']?></i></p>
                     </li>
                     <li>
-                        <p class="fl"><span>总用户：</span><i>500</i></p>
-                        <p class="fr"> <span>总奖品数：</span><i>500</i></p>
+                        <p class="fl"><span>有效总用户：</span><i><?php echo $user?></i></p>
+                        <p class="fr"> <span>总奖品数：</span><i><?php echo $price['total']?></i></p>
                     </li>
                     <li>
-                        <p class="fl"><span>已发放奖品数：</span><i>500</i></p>
-                        <p class="fr"><span>还剩奖品数：</span><i>500</i></p>
+                        <p class="fl"><span>已发放奖品数：</span><i><?php echo $price['used']?></i></p>
+                        <p class="fr"><span>还剩奖品数：</span><i><?php echo $price['unused']?></i></p>
                     </li>
                 </ul>
             </div>
         </div>
         <div id="footer">Copyright &copy; 2014 左右互联订单管理系统</div>
+        <script>
+            $(function () {
+                var hrightobg = $(window).height();
+                $(".hotai_left").height(hrightobg)
+            })
+        </script>
     </body>
 </html>

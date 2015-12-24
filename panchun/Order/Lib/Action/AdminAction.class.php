@@ -15,10 +15,14 @@ class AdminAction extends BaseAction
             redirect('admin_login.html');
         }
         
-        $price_model = D('Price');
-        $price = $price_model->get_price_base_info();
+        $price = D('Price')->get_price_base_info();
+        $order = D('Order')->get_order_base_info();
+        $user = M('User')->where(array('is_valid'=>1))->count();
         
-        $this->assign('admin',$price[0]);
+        $this->assign('price',$price[0]);
+        $this->assign('order',$order[0]);
+        $this->assign('user',$user);
+        
         $this->assign('admin',$admin);
         $this->display();
     }

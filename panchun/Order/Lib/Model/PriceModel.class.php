@@ -18,19 +18,19 @@ class PriceModel extends Model
                     (SELECT 
                       COUNT(ldh_price.price_id) AS total 
                     FROM
-                      ldh_price) AS total_search 
+                      ldh_price WHERE is_valid = 1) AS total_search 
                   ,
                   (SELECT 
                     COUNT(ldh_price.price_id) AS used 
                   FROM
                     ldh_price 
-                  WHERE STATUS = 2) AS used_search 
+                  WHERE STATUS = 2 AND is_valid = 1) AS used_search 
                   ,
                   (SELECT 
                     COUNT(ldh_price.price_id) AS unused 
                   FROM
                     ldh_price 
-                  WHERE STATUS = 1) AS unsed_search';
+                  WHERE STATUS = 1 AND is_valid = 1) AS unsed_search';
         
         return $model->query($sql);
     }
