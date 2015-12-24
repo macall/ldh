@@ -1,0 +1,668 @@
+[ 2015-04-24T04:54:59+08:00 ] 111.206.36.141 /admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] ob_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/Image.class.php 第 558 行.
+
+[ 2015-04-24T04:54:59+08:00 ] 111.206.36.12 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-04-24T04:58:18+08:00 ] 61.135.190.71 /admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] ob_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/Image.class.php 第 558 行.
+
+[ 2015-04-24T04:59:17+08:00 ] 61.135.190.69 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000496s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000404s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000316s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002305s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-04-24T21:15:05+08:00 ] 182.134.14.167 /admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004809s ]
+NOTIC: [8] Undefined index:  7195a62edfd11a40a68c77ff40ee98a6 /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:15:05+08:00 ] 182.134.14.167 /admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005140s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:15:05+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003122s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2015-04-24T21:15:05+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001031s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-04-24T21:15:06+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] ob_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/Image.class.php 第 558 行.
+
+[ 2015-04-24T21:15:06+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011035s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2015-04-24T21:16:52+08:00 ] 182.134.14.167 /admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:16:52+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000635s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2015-04-24T21:16:53+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] ob_clean() [<a href='ref.outcontrol'>ref.outcontrol</a>]: failed to delete buffer. No buffer to delete. /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/Image.class.php 第 558 行.
+
+[ 2015-04-24T21:16:53+08:00 ] 182.134.14.167 /admin_order.php?s=/public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+ERR: 非法操作:login
+
+[ 2015-04-24T21:17:15+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.022792s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `lu_log` [ RunTime:0.018168s ]
+SQL: INSERT INTO `lu_log` (`vc_operation`,`vc_module`,`creator_id`,`creator_name`,`vc_ip`,`createtime`) VALUES ('用户登录：登录成功！','系统管理','1','admin','182.134.14.167',1429881435) [ RunTime:0.010362s ]
+SQL: UPDATE `lu_user` SET `last_login_time`=1429881435,`login_count`=login_count+1,`last_login_ip`='182.134.14.167' WHERE ( `id` = 1 ) [ RunTime:0.001138s ]
+
+[ 2015-04-24T21:17:15+08:00 ] 182.134.14.167 /admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.016446s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.012461s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.035823s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/Action/IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.015753s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.010167s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000951s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level /home/wwwroot/test/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000424s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002339s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-04-24T21:17:20+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize&_=1429881464312
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001737s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.000507s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000182s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.011311s ]
+NOTIC: [8] Undefined index:  product /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index:  uname /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index:  status /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index:  pageNum /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 207 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 15   [ RunTime:0.014206s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index:  tpls /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  _order /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 3 行.
+NOTIC: [8] Undefined index:  _sort /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 4 行.
+NOTIC: [8] Undefined variable: map /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+NOTIC: [8] Undefined index:  _order /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.171680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-04-24T21:17:21+08:00 ] 182.134.14.167 /admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.000802s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.000872s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/Action/IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.001040s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.000643s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level /home/wwwroot/test/public_html/Admin/Runtime/Cache/20eabf8d43f497715f3e1a7ec1a2f00f.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-04-24T21:17:27+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize/edit/id/265&_=1429881470662
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000823s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000953s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lu_z_province` [ RunTime:0.136652s ]
+SQL: SELECT `id`,`name` FROM `lu_z_province`  [ RunTime:0.020977s ]
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.001199s ]
+SQL: SELECT * FROM `lu_organize` WHERE ( `id` = 265 ) LIMIT 1   [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `lu_student` [ RunTime:0.000513s ]
+ERR: 1146:Table 'testhuachuang.lu_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_student`
+SQL: SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1   [ RunTime:0.000091s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000895s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000674s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2015-04-24T21:17:32+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize/update/navTabId/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001130s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.001056s ]
+SQL: UPDATE `lu_organize` SET `status`='有效单',`remark`='' WHERE ( `id` = 265 ) [ RunTime:0.000282s ]
+
+[ 2015-04-24T21:17:32+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.000638s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000141s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.001099s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 0,15   [ RunTime:0.000476s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index:  tpls /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: map /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002703s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2015-04-24T21:17:48+08:00 ] 182.134.14.167 /admin_order.php?s=/Public/menu/menu/News
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001029s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.001044s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.000874s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/Action/PublicAction.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.000810s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level /home/wwwroot/test/public_html/Admin/Runtime/Cache/66255699a8e1be0cff98e3d3be8decfb.php 第 9 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000432s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2015-04-24T21:17:50+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize&_=1429881494223
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.000467s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000304s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index:  product /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index:  uname /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index:  status /home/wwwroot/test/public_html/Admin/Lib/Action/OrganizeAction.class.php 第 5 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index:  pageNum /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 207 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 15   [ RunTime:0.000232s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index:  tpls /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  _order /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 3 行.
+NOTIC: [8] Undefined index:  _sort /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 4 行.
+NOTIC: [8] Undefined variable: map /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+NOTIC: [8] Undefined index:  _order /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000465s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-04-24T21:17:50+08:00 ] 101.226.65.108 /admin_order.php?s=/Organize&_=1429881494223
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index:  3c77a2935af43dfc35c0a508b643d001 /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:17:50+08:00 ] 101.226.65.108 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000610s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002831s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2015-04-24T21:17:53+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize/edit/id/263&_=1429881497423
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000952s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `lu_z_province` [ RunTime:0.000642s ]
+SQL: SELECT `id`,`name` FROM `lu_z_province`  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.000976s ]
+SQL: SELECT * FROM `lu_organize` WHERE ( `id` = 263 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `lu_student` [ RunTime:0.000376s ]
+ERR: 1146:Table 'testhuachuang.lu_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_student`
+SQL: SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1   [ RunTime:0.000158s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011512s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000384s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000247s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001918s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-04-24T21:17:57+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize/update/navTabId/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.001250s ]
+SQL: UPDATE `lu_organize` SET `status`='发货中',`remark`='' WHERE ( `id` = 263 ) [ RunTime:0.000460s ]
+
+[ 2015-04-24T21:17:57+08:00 ] 182.134.14.167 /admin_order.php?s=/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.000636s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000266s ]
+ERR: 1146:Table 'testhuachuang.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className /home/wwwroot/test/public_html/Admin/Common/common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.000873s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index:  moshi /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 0,15   [ RunTime:0.000244s ]
+NOTIC: [2] Invalid argument supplied for foreach() /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index:  tpls /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: map /home/wwwroot/test/public_html/Admin/Runtime/Cache/d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-04-24T21:30:50+08:00 ] 101.226.66.179 /admin_order.php?s=/Organize&_=1429881464312
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000909s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index:  3c77a2935af43dfc35c0a508b643d001 /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:30:51+08:00 ] 101.226.66.179 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010537s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001076s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2015-04-24T21:31:07+08:00 ] 101.226.33.206 /admin_order.php?s=/Organize/edit/id/265&_=1429881470662
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /home/wwwroot/test/public_html/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index:  26af724a5a7ce69e5aa8280c79f292f9 /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index:  _ACCESS_LIST /home/wwwroot/test/public_html/Admin/Lib/ORG/Util/RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index:  authId /home/wwwroot/test/public_html/Admin/Lib/Action/CommonAction.class.php 第 11 行.
+
+[ 2015-04-24T21:31:08+08:00 ] 101.226.33.206 /admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+

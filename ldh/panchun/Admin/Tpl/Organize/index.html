@@ -1,0 +1,88 @@
+<include file="Public:pagerForm" />
+<div class="pageHeader">
+	<form rel="pagerForm" onsubmit="return navTabSearch(this);" action="__URL__" method="post">
+	<div class="searchBar">
+		<ul class="searchContent">
+				<li>
+					<label>产品：</label>
+					<input type="text" name="product" value="" />
+				</li>
+				<li>
+					<label>姓名：</label>
+					<input type="text" name="uname" value="" />
+				</li>
+				<li>
+					<label>状态：</label>
+					<select class="" name="status">
+						<option value="">--请选择状态 --</option>
+						<option value="待处理">待处理</option>            
+						<option value="询问中">询问中</option>
+						<option value="有效单">有效单</option>
+						<option value="待发货">待发货</option>
+						<option value="发货中">发货中</option>
+						<option value="已发货">已发货</option>
+						<option value="成交">成交</option>
+					</select>
+				</li>
+			</ul>
+		<div class="subBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">查询</button></div></div></li>
+			</ul>
+		</div>
+	</div>
+	</form>
+</div>
+
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+		    <li><a title="[谨慎操作]确实要删除这些订单吗?" target="selectedTodo" target="dialog" rel="ids[]" href="__URL__/delAll" class="delete" ><span>批量删除</span></a></li>
+			<li><a class="delete" href="__URL__/foreverdelete/id/{sid_user}/navTabId/__MODULE__" target="ajaxTodo" title="你确定要删除吗？" warn="请选择订单"><span>删除</span></a></li>
+			<li><a class="edit" href="__URL__/edit/id/{sid_user}" target="dialog" mask="true" warn="请选择订单"><span>编辑/查看</span></a></li>
+			<li class="line">line</li>
+			<li><a class="icon" href="__URL__/excel" target="dwzExport" targetType="navTab" title="实要导出这些记录吗?"><span>导出EXCEL</span></a></li>
+			<li><a class="icon" href="javascript:$.printBox('print_table')"><span>打印</span></a></li>
+		</ul>
+	</div>
+	<div id="print_table">
+	<table class="table" width="100%" layoutH="138">
+		<thead>
+		<tr>
+		    <th width="60"><input type="checkbox" group="ids[]" class="checkboxCtrl">编号</th>
+			<!--<th width="100" orderField="orderid" <if condition="$_REQUEST._order eq 'orderid'">class="{$_REQUEST._sort}"</if>>订单号</th> -->
+			<th>产品</th>
+			<th>姓名</th>
+			<th>订单状态</th>
+			<th>地址&下单IP</th>
+			<th>联系电话</th>
+			<th>下单时间</th>
+		</tr>
+		</thead>
+		<tbody>
+		<volist id="vo" name="list">
+			<tr target="sid_user" rel="{$vo['id']}">
+			    <td><input name="ids[]" value="{$vo['id']}" type="checkbox">{$vo['id']}</td>
+				<!-- <td>{$vo['orderid']}</td> -->
+				<td>{$vo['product']}</td>
+				<td>{$vo['uname']}</td>
+				<td>{$vo['status']|getstats=###}</td>
+				<td>{$vo['province']}-{$vo['city']}-{$vo['dist']}-{$vo['address']}【IP:{$vo['ip']}-{$vo['ip']|IP=###}】
+				</td>
+				<td>{$vo['tel']}</td>
+				<td>{$vo['create_time']|date="Y-m-d H:s:i",###}</td>
+			</tr>
+		</volist>
+		</tbody>
+	</table>
+	</div>
+	<div class="panelBar">
+		<div class="pages">
+			<span>共{$totalCount}条</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$currentPage}"></div>
+	</div>
+
+</div>
+
+

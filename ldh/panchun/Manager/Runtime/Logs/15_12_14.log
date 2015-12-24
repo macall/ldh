@@ -1,0 +1,327 @@
+[ 2015-12-14T10:18:34+08:00 ] 0.0.0.0 /panchun/manager.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 8c17103053ba3dc0842182445e73b060 E:\WWW\panchun\Manager\Lib\ORG\Util\RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST E:\WWW\panchun\Manager\Lib\ORG\Util\RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index: authId E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 11 行.
+
+[ 2015-12-14T10:18:34+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-14T10:18:34+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-14T10:18:41+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_log` [ RunTime:0.013000s ]
+SQL: INSERT INTO `lu_log` (`vc_operation`,`vc_module`,`creator_id`,`creator_name`,`vc_ip`,`createtime`) VALUES ('用户登录：登录成功！','系统管理','1','admin','0.0.0.0',1450059521) [ RunTime:0.000000s ]
+SQL: UPDATE `lu_user` SET `last_login_time`=1450059521,`login_count`=login_count+1,`last_login_ip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.019001s ]
+
+[ 2015-12-14T10:18:42+08:00 ] 0.0.0.0 /panchun/manager.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.011000s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: _ACCESS_LIST E:\WWW\panchun\Manager\Lib\Action\IndexAction.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: level E:\WWW\panchun\Manager\Runtime\Cache\0786eb28855449a6b7a5b110b592283d.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-14T10:18:43+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lu_log` [ RunTime:0.005000s ]
+SQL: INSERT INTO `lu_log` (`vc_operation`,`vc_module`,`creator_id`,`creator_name`,`vc_ip`,`createtime`) VALUES ('用户登录：登录成功！','系统管理','1','admin','0.0.0.0',1450059523) [ RunTime:0.000000s ]
+SQL: UPDATE `lu_user` SET `last_login_time`=1450059523,`login_count`=login_count+1,`last_login_ip`='0.0.0.0' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+
+[ 2015-12-14T12:52:13+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Organize&_=1450068732585
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.013001s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className E:\WWW\panchun\Manager\Common\common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.023001s ]
+NOTIC: [8] Undefined index: product E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uname E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: status E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index: maps E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pageNum E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 207 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 20   [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index: tpls E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 3 行.
+NOTIC: [8] Undefined index: _sort E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 4 行.
+NOTIC: [8] Undefined variable: map E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 5 行.
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 59 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-12-14T16:34:59+08:00 ] 127.0.0.1 /panchun/manager.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: 8c17103053ba3dc0842182445e73b060 E:\WWW\panchun\Manager\Lib\ORG\Util\RBAC.class.php 第 180 行.
+NOTIC: [8] Undefined index: _ACCESS_LIST E:\WWW\panchun\Manager\Lib\ORG\Util\RBAC.class.php 第 184 行.
+NOTIC: [8] Undefined index: authId E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 11 行.
+
+[ 2015-12-14T16:35:00+08:00 ] 127.0.0.1 /panchun/manager.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.021001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-14T16:35:02+08:00 ] 127.0.0.1 /panchun/manager.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-12-14T16:35:23+08:00 ] 127.0.0.1 /panchun/manager.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.333019s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.028001s ]
+
+[ 2015-12-14T16:39:33+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Organize&_=1450082372342
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.074004s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className E:\WWW\panchun\Manager\Common\common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.085005s ]
+NOTIC: [8] Undefined index: product E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uname E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: status E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index: maps E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pageNum E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 207 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 20   [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index: tpls E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 3 行.
+NOTIC: [8] Undefined index: _sort E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 4 行.
+NOTIC: [8] Undefined variable: map E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 5 行.
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 59 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.260015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260015s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-14T16:41:34+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Organize&_=1450082493476
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000000s ]
+ERR: 1146:Table 'test.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className E:\WWW\panchun\Manager\Common\common.php 第 542 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.007001s ]
+NOTIC: [8] Undefined index: product E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: uname E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: [8] Undefined index: status E:\WWW\panchun\Manager\Lib\Action\OrganizeAction.class.php 第 5 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index: maps E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 183 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 185 行.
+NOTIC: [8] Undefined index: moshi E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 189 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pageNum E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 207 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 20   [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 210 行.
+NOTIC: [8] Undefined variable: sort E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 220 行.
+NOTIC: [8] Undefined variable: sortImg E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 222 行.
+NOTIC: [8] Undefined variable: sortAlt E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 223 行.
+NOTIC: [8] Undefined index: tpls E:\WWW\panchun\Manager\Lib\Action\CommonAction.class.php 第 237 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 3 行.
+NOTIC: [8] Undefined index: _sort E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 4 行.
+NOTIC: [8] Undefined variable: map E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 5 行.
+NOTIC: [8] Undefined index: _order E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 59 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+NOTIC: [8] Undefined index: url E:\WWW\panchun\Manager\Runtime\Cache\1343caa3f2d6915ebb19404732b7982b.php 第 83 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-14T16:42:55+08:00 ] 0.0.0.0 /panchun/manager.php?s=/Organize/edit/id/268&_=1450082573781
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given E:\WWW\panchun\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lu_z_province` [ RunTime:0.061003s ]
+SQL: SELECT `id`,`name` FROM `lu_z_province`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `lu_organize` WHERE ( `id` = 268 ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `lu_student` [ RunTime:0.005000s ]
+ERR: 1146:Table 'test.lu_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_student`
+SQL: SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

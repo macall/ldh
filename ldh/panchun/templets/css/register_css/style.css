@@ -1,0 +1,221 @@
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: 微软雅黑, Arial;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/1.5;
+	font-family: Arial;
+	_background-image: url(about:blank);
+	_background-attachment: fixed;
+	box-sizing:border-box
+}
+img {
+	border: 0;
+}
+ol, ul {
+	list-style: none;
+}
+:link, :visited, ins {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+sub, sup {
+	font-size: 100%;
+	vertical-align: baseline;
+}
+blockquote, q {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	content: none;
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border:0;
+	padding:0;
+}
+textarea {
+	overflow: auto;
+	resize: vertical;
+	vertical-align: top;
+}
+i, cite, em, address {
+	font-style: normal;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+@font-face {
+	font-family: Arial;
+	src: url(../font/Arial.ttf);
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.heder {
+	height: 60px;
+	width:100%;
+	background:#2e8116;
+	position: relative
+}
+.heder h2 {
+	line-height:60px;
+	text-align: center;
+	color:#fff;
+	font-size:18px;
+}
+.heder p {
+	position: absolute;
+	line-height: 60px;
+	right:15px;
+	top:0;
+	font-size:15px;
+	color:#fff
+}
+.heder p a {
+	font-size:15px;
+	color:#fff
+}
+.centent {
+	}
+.centent ul {
+	padding:10px;
+}
+.centent ul li {
+	border:1px solid #ddd;
+	padding:10px 0px;
+	box-shadow: inset 0 5px 3px #eeeded;
+	margin: 10px 0;
+}
+.centent ul li input {
+	border:none;
+	outline:none
+}
+.centent ul li span {
+	padding-left:10px;
+	margin-right:10px;
+}
+.centent ul li a {
+	float: right;
+	padding: 5px 10px;
+	background: #2e8116;
+	margin-top: -5px;
+	margin-right: 6px;
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+}
+.centent ul.botton {
+	border:0;
+	box-shadow: inset 0 0px 0px #ffffff;
+	padding:0;
+}
+.centent ul.botton > input {
+	background:#2e8116;
+	color:#fff;
+	font-size:15px;
+	text-align:
+center;
+	width:100%;
+	line-height:35px;
+	border:0
+}
+.zhuce ul li span {
+	display: inline-block;
+	width:50px;
+	text-align: right
+}
+.huiyuan ul li {
+	padding:10px 10px;
+	font-size:14px;
+	border-bottom:1px solid #ddd;
+	background:
+url(../../images/icon_1.png) no-repeat 96% center;
+	background-size:11px;
+	text-align:center;
+}
+.huiyuan ul li a{
+    display: block;
+    width: 100%
+}
+.cenuce ul li {
+	padding:30px 10px;
+	font-size:15px;
+	color:#333;
+}
+.cenuce ul li a {
+	display:block;
+	width:100%;
+	text-align:center;
+}
+.cenuce ul li i {
+	color:#f00;
+}
+.yuanyz ul li {
+	text-align: center
+}
+.yuanyz > a {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height:30px;
+	background:#2e8116;
+	color:#fff;
+	line-height: 30px;
+	font-size:14px;
+}
+.yuanyz > span {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height:30px;
+	background:#2e8116;
+	color:#fff;
+	line-height: 30px;
+	font-size:14px;
+}
+.dider {
+	position:relative
+}
+.dider > a {
+	position:absolute;
+	top:50%;
+	margin-top:-10.5px;
+	left:10px;
+}
+.dider > a img {
+	width:12px;
+}
+.centent ul.botton p input {
+    float: left;
+    margin: 3px;
+}

@@ -1,0 +1,249 @@
+<?php if (!defined('THINK_PATH')) exit(); if(empty($message)){ ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>跳转提示</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+body{ background: #FFF; font-family: '微软雅黑'; color: #000; font-size: 16px; }
+.system-message{
+width: 450px;
+height: 200px;
+background: whiteSmoke;
+border: 1px solid #D2D2D2;
+position: absolute;
+top: 40%;
+left: 50%;
+margin-top: -100px;
+margin-left: -225px;
+text-align: center;
+ }
+.system-message h1{ font-size: 80px; font-weight: normal; line-height: 120px; margin-bottom: 12px }
+.system-message .jump{ padding-top: 10px;margin-bottom:20px}
+.system-message .jump a{ color: #333;}
+.system-message .success,.system-message .error{ line-height: 1.8em; font-size: 36px }
+.system-message .detail{ font-size: 12px; line-height: 20px; margin-top: 12px; display:none}
+#wait {
+    font-size:46px;
+	line-height:46px;
+}
+#btn-stop,#href{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0 none;
+    background-color: #8B0000;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    border-color: transparent;
+    text-decoration:none;
+}
+
+#btn-stop:hover,#href:hover{
+    background-color: #ff0000;
+}
+
+</style>
+</head>
+<body>
+<div class="system-message">
+<h1></h1>
+<p class="error"><?php echo($error);?></p>
+<p class="detail"></p>
+<p class="jump">
+<b id="wait"><?php echo($waitSecond); ?></b> 秒后页面将自动跳转
+</p>
+<div>
+    <a id="href" id="btn-now" href="<?php echo($jumpUrl); ?>">立即跳转</a> 
+    <button id="btn-stop" type="button" onclick="stop()">停止跳转</button> 
+    <a id="href" id="btn-now" href="/">返回首页</a> 
+</div>
+</div>
+<script type="text/javascript">
+(function(){
+ var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+ var interval = setInterval(function(){
+     	var time = --wait.innerHTML;
+     	if(time <= 0) {
+     		location.href = href;
+     		clearInterval(interval);
+     	};
+     }, 1000);
+  window.stop = function (){
+         console.log(111);
+            clearInterval(interval);
+ }
+ })();
+</script>
+</body>
+</html>
+
+<?php
+}else{ ?>
+
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<title>系统提示</title>
+
+<style type="text/css">
+
+
+    *{margin:0;padding:0;}
+
+    body{font:14px Microsoft YaHei,5FAE8F6F96C59ED1,SimSun,5B8B4F53,Arial,Verdana;color:#000;text-align:left;padding-top:60px;background:#FFF;} 
+
+    a:link,a:visited{color:#F00;text-decoration:none;}a:hover{color:#090;text-decoration:underline;}
+
+    ul,li{list-style:none;display:block;}
+
+    img{border:0 none;vertical-align:middle;}
+
+    #head{width:100%;padding:0 0 30px;text-align:center;border-bottom:2px dotted #DDD;}
+
+    #wfok{width:100%;background:#FFF;}
+
+    #wfok ul{width:650px;height:auto;margin:20px auto;}    
+
+    #wfok li{width:650px;height:30px;line-height:30px;border-bottom:1px dotted #DDD;}    
+
+    #wfok li span.l{float:left;width:200px;text-align:right;margin-right:20px;}    
+
+    #wfok li span.r{float:left;width:430px;color:#BD0000;} 
+
+    #foot{width:100%;padding:30px 0 0;text-align:center;border-top:2px dotted #DDD;}
+
+    #foot p.go{font:12px SimSun,5B8B4F53,Arial,Verdana;color:#090;margin-bottom:20px;}
+
+    #time{font:14px Arial,Verdana;color:#F90;font-weight:bold;}
+
+</style>
+
+<script type="text/javascript">
+
+setInterval("settime()",1000);
+
+    var i=15;
+
+    function settime() {
+
+       i--;
+
+       time.innerHTML=i;
+
+       if(i<=0) {
+
+        window.location.href="<?php echo($jumpUrl); ?>";
+
+       }
+
+    }
+
+</script>
+
+</head>
+
+<body>
+
+<div id="head">
+
+    <img src="/panchun/Public/czy/images/wfok.gif" />
+
+</div>
+
+<div id="wfok">
+
+    <ul>
+
+        <li>
+
+            <span class="l">收货人姓名：</span>
+
+            <span class="r"><?php echo $_POST['uname']; ?></span>
+
+        </li>
+        <li>
+
+            <span class="l">订购商品：</span>
+
+            <span class="r"><?php echo $_POST['product']; ?></span>
+
+        </li>
+        <li>
+
+            <span class="l">订购数量：</span>
+
+            <span class="r"><?php echo $_POST['number']; ?></span>
+
+        </li>		
+        <li>
+
+            <span class="l">收货人电话：</span>
+
+            <span class="r"><?php echo $_POST['tel']; ?></span>
+
+        </li>
+        <li>
+
+            <span class="l">所在地区：</span>
+
+            <span class="r"><?php echo $_POST['province'].$_POST['city'].$_POST['dist']; ?></span>
+
+        </li>
+        <li>
+
+            <span class="l">详细地址：</span>
+
+            <span class="r"><?php echo $_POST['address']; ?></span>
+
+        </li>		
+
+
+        <li>
+
+            <span class="l">留言信息：</span>
+
+            <span class="r">
+            <?php echo $_POST['message']; ?>
+           </span>
+
+        </li>
+
+    </ul>
+
+</div>
+<script>
+!function(w,d,e){
+var _orderno='<?php echo $_POST['product']; ?>';
+var _money='订单金额，例如：160.00';
+var _productList='<?php echo $_POST['uname']; ?>订购：<?php echo $_POST['product']; ?> 电话：<?php echo $_POST['tel']; ?>';
+var b=location.href,c=d.referrer,f,s,g=d.cookie,h=g.match(/(^|;)\s*ipycookie=([^;]*)/),i=g.match(/(^|;)\s*ipysession=([^;]*)/);if (w.parent!=w){f=b;b=c;c=f;};u='//stats.ipinyou.com/cvt?a='+e('hI.Pr.YsVGpbSWZZu6YrLk3-Mk90')+'&c='+e(h?h[2]:'')+'&s='+e(i?i[2].match(/jump\%3D(\d+)/)[1]:'')+'&u='+e(b)+'&r='+e(c)+'&rd='+(new Date()).getTime()+'&OrderNo='+e(_orderno)+'&Money='+e(_money)+'&ProductList='+e(_productList)+'&e=';
+function _(){if(!d.body){setTimeout(_(),100);}else{s= d.createElement('script');s.src = u;d.body.insertBefore(s,d.body.firstChild);}}_();
+}(window,document,encodeURIComponent);
+</script>
+
+<div id="foot">
+
+    <p class="go">温馨提示：本页面将在 <span id="time">15</span> 秒后自动返回，或者您也可以点击下面的返回图标立即返回。</p>
+
+    <p><a href='<?php echo($jumpUrl); ?>' title="返回"><img src="/panchun//Public/czy/images/wfgo.gif" alt="返回" /></a></p>
+
+</div>
+
+
+</body>
+
+</html>
+<?php }?>

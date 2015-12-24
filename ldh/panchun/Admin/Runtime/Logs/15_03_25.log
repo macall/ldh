@@ -1,0 +1,1030 @@
+[ 2015-03-25T18:16:56+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/logout/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014334s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001145s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001183s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2015-03-25T18:17:01+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-03-25T18:17:03+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000287s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-03-25T18:17:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000286s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-03-25T18:17:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040246s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003502s ]
+
+[ 2015-03-25T18:17:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2015-03-25T18:17:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023587s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000644s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2015-03-25T18:17:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001401s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001210s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005595s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001758s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002059s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000590s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001923s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002024s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001871s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020191s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002706s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.090295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090609s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001989s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000849s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000700s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000769s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000990s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002710s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000635s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024797s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000823s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003181s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004125s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-03-25T18:17:06+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: volist D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 97 行.
+NOTIC: [8] Undefined variable: groups D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 112 行.
+NOTIC: [8] Undefined variable: articles D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 163 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2015-03-25T18:17:32+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002888s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-03-25T18:17:33+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+
+[ 2015-03-25T18:17:33+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000311s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2015-03-25T18:17:33+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+
+[ 2015-03-25T18:17:46+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) D:\phpStudy\WWW\neworder\order_jiami\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2015-03-25T18:17:54+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000367s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000355s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-03-25T18:17:57+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-03-25T18:18:22+08:00 ] 127.0.0.1 /order_jiami/admin_order.php/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) D:\phpStudy\WWW\neworder\order_jiami\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2015-03-25T18:23:55+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013778s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005801s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2015-03-25T18:23:55+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+
+[ 2015-03-25T18:24:01+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004887s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `lu_log` [ RunTime:0.005856s ]
+SQL: INSERT INTO `lu_log` (`vc_operation`,`vc_module`,`creator_id`,`creator_name`,`vc_ip`,`createtime`) VALUES ('用户登录：登录成功！','系统管理','1','admin','127.0.0.1',1427279041) [ RunTime:0.000605s ]
+SQL: UPDATE `lu_user` SET `last_login_time`=1427279041,`login_count`=login_count+1,`last_login_ip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000496s ]
+
+[ 2015-03-25T18:24:01+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.003095s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.002835s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000125s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\IndexAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 14 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003128s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.003320s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000956s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003705s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002578s ]
+
+[ 2015-03-25T18:24:03+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.003268s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.003366s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.001516s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\IndexAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 14 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.003415s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.003162s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2015-03-25T18:24:04+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/logout/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\74f8ab5312805d56d6830dc20ceae13f.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2015-03-25T18:24:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000372s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2015-03-25T18:24:05+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+
+[ 2015-03-25T18:24:07+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000360s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2015-03-25T18:24:07+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+
+[ 2015-03-25T18:24:14+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.003122s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.000357s ]
+
+[ 2015-03-25T18:24:23+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Public/checkLogin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `lu_user` [ RunTime:0.004819s ]
+SQL: SELECT * FROM `lu_user` WHERE ( `account` = 'admin' ) AND ( `status` > 0 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `lu_log` [ RunTime:0.003015s ]
+SQL: INSERT INTO `lu_log` (`vc_operation`,`vc_module`,`creator_id`,`creator_name`,`vc_ip`,`createtime`) VALUES ('用户登录：登录成功！','系统管理','1','admin','127.0.0.1',1427279063) [ RunTime:0.000227s ]
+SQL: UPDATE `lu_user` SET `last_login_time`=1427279063,`login_count`=login_count+1,`last_login_ip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000213s ]
+
+[ 2015-03-25T18:24:24+08:00 ] 127.0.0.1 /order_jiami/admin_order.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `lu_group_class` [ RunTime:0.003421s ]
+SQL: SELECT * FROM `lu_group_class` WHERE ( `status` = 1 ) ORDER BY sort desc, id desc  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `lu_node` [ RunTime:0.003360s ]
+SQL: SELECT `id` FROM `lu_node` LIMIT 1   [ RunTime:0.000149s ]
+SQL: SELECT `id`,`name`,`group_id`,`title` FROM `lu_node` WHERE ( `level` = 2 ) AND ( `status` = 1 ) AND ( `pid` = 1 ) ORDER BY sort asc  [ RunTime:0.000598s ]
+NOTIC: [8] Undefined index:  _ACCESS_LIST D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\IndexAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 14 行.
+SQL: SHOW COLUMNS FROM `lu_group` [ RunTime:0.002631s ]
+SQL: SELECT * FROM `lu_group` WHERE ( `group_menu` = 'News' ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `lu_article` [ RunTime:0.004684s ]
+SQL: SELECT * FROM `lu_article` WHERE ( `class_id` = 3 ) AND ( `status` = 1 ) ORDER BY sort desc,id desc  [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  level D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\20eabf8d43f497715f3e1a7ec1a2f00f.php 第 118 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000812s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-03-25T18:24:26+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Organize&_=1427279066102
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.084910s ]
+ERR: 1146:Table 'neworder.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000304s ]
+ERR: 1146:Table 'neworder.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className D:\phpStudy\WWW\neworder\order_jiami\Admin\Common\common.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 401 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.093029s ]
+NOTIC: [8] Undefined index:  product D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\OrganizeAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 4 行.
+NOTIC: [8] Undefined index:  uname D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\OrganizeAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 4 行.
+NOTIC: [8] Undefined index:  status D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\OrganizeAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 4 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 102 行.
+NOTIC: [8] Undefined index:  moshi D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 103 行.
+NOTIC: [8] Undefined index:  moshi D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 106 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.014029s ]
+NOTIC: [8] Undefined index:  pageNum D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 119 行.
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 15   [ RunTime:0.017039s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 120 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 127 行.
+NOTIC: [8] Undefined variable: sortImg D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 129 行.
+NOTIC: [8] Undefined variable: sortAlt D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 130 行.
+NOTIC: [8] Undefined index:  tpls D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 138 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  _order D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 3 行.
+NOTIC: [8] Undefined index:  _sort D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 4 行.
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+NOTIC: [8] Undefined index:  _order D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 60 行.
+NOTIC: [8] Undefined index:  _order D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 62 行.
+NOTIC: [8] Undefined index:  _order D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 63 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-03-25T18:24:29+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Organize/edit/id/185&_=1427279069050
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `lu_z_province` [ RunTime:0.070448s ]
+SQL: SELECT `id`,`name` FROM `lu_z_province`  [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.004781s ]
+SQL: SELECT * FROM `lu_organize` WHERE ( `id` = 185 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `lu_student` [ RunTime:0.003050s ]
+ERR: 1146:Table 'neworder.lu_student' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_student`
+SQL: SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1   [ RunTime:0.000147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `lu_student` WHERE ( id= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-03-25T18:24:33+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Organize/update/navTabId/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined variable: className D:\phpStudy\WWW\neworder\order_jiami\Admin\Common\common.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 401 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.005108s ]
+SQL: UPDATE `lu_organize` SET `status`='询问中',`remark`='' WHERE ( `id` = 185 ) [ RunTime:0.000379s ]
+
+[ 2015-03-25T18:24:33+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Organize
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000859s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lu_classes` [ RunTime:0.003988s ]
+ERR: 1146:Table 'neworder.lu_classes' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lu_classes`
+SQL: SELECT * FROM `lu_classes` WHERE ( status=1 )  [ RunTime:0.000491s ]
+ERR: 1146:Table 'neworder.lu_classes' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lu_classes` WHERE ( status=1 ) 
+NOTIC: [8] Undefined variable: className D:\phpStudy\WWW\neworder\order_jiami\Admin\Common\common.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 401 行.
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.003965s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: [8] Undefined index:  maps D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 102 行.
+NOTIC: [8] Undefined index:  moshi D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 103 行.
+NOTIC: [8] Undefined index:  moshi D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 106 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `lu_organize` LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `lu_organize` ORDER BY id desc LIMIT 0,15   [ RunTime:0.000716s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 120 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 127 行.
+NOTIC: [8] Undefined variable: sortImg D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 129 行.
+NOTIC: [8] Undefined variable: sortAlt D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 130 行.
+NOTIC: [8] Undefined index:  tpls D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\CommonAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 138 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\neworder\order_jiami\Admin\Runtime\Cache\d1a70b1ec42aa2623e794c9fd70b79c6.php 第 5 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016611s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-03-25T18:24:40+08:00 ] 127.0.0.1 /order_jiami/admin_order.php?s=/Organize/excel&pageNum=1&_order=&_sort=&product=&uname=&status=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lu_organize` [ RunTime:0.030297s ]
+SQL: SELECT `id`,`uname`,`product`,`status`,`tel`,`province`,`city`,`dist`,`create_time`,`message`,`remark` FROM `lu_organize`  [ RunTime:0.001686s ]
+NOTIC: [8] Undefined index:  account D:\phpStudy\WWW\neworder\order_jiami\Admin\Lib\Action\OrganizeAction.class.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code 第 37 行.
+
