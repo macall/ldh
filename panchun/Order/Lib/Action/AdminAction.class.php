@@ -75,6 +75,19 @@ class AdminAction extends BaseAction
             redirect('admin_login.html');
         }
         
+        $user = D('User');
+        $user_all = $user->get_user_list();
+        $user_count = count($user_all);
+        
+        import('ORG.Util.Page');// 导入分页类
+        $page = new Page($user_count);
+        $show = $page->show();// 分页显示输出
+        
+        $offset = $this->_param('pageNum')?$this->_param('pageNum')-1:0;
+        $user_list = $user->get_user_list($offset,$page->listRows);
+        
+        $this->assign('page',$show);// 赋值分页输出
+        $this->assign('user_list',$user_list);// 赋值数据集
         $this->assign('admin',$admin);
         $this->display();
     }
