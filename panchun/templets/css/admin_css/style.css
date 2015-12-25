@@ -70,10 +70,7 @@ a {
     color: #333;
     text-decoration: none;
 }
-@font-face {
-    font-family: Arial;
-    src: url(../font/Arial.ttf);
-}
+
 .fl {
     float: left;
 }
@@ -87,19 +84,21 @@ a {
 .hotai_left ul li.no{background:#269EFF; }
 .hotai_left ul li.no a{color:#fff;}
 .hotai_left ul li a{color:#1386e2;font-size: 15px;}
-.right{width:89%; float:left; padding:20px 0px 0px 0; box-sizing: border-box}
-.right table tr td{ text-align: center; border:1px solid #A9D4F7; line-height:40px; font-size:16px}
+.right{width:89%; float:left;height:800px; overflow-x: scroll; padding:20px 0px 0px 0; box-sizing: border-box}
+.right table tr td{ text-align: center; border:1px solid #A9D4F7; line-height:22px;padding:5px 10px; font-size:16px}
 .right table thead tr{background:#1386e2; font-size:15px; color:#fff;}
-.right table{width: 80%; margin: auto;  }
-.right table tr td.diz{width:30%;}
+.right table{width: 95%; margin: auto;  }
+.right table tr td.diz{width:25%;word-break: break-all;}
+.right table tr td.gy{width:10%}
 .right table tr td.dianhu{width:15%}
 .right table tr:nth-child(2n){background:#CBE8FF}
 .right table tr td.blou{color:#A0A0A0;}
 .right table tr td.ffff{color:#00DD00}
+.right table tr td.ddd{width:15%;}
 .right table tr td.zuihou button{border:none; background:none}
 .right > a{    line-height: 29px;
     font-size: 15px;
-    margin-left: 10%;
+    margin-left: 2.5%;
     background: #1386E2;
     color: #fff;
     display: block;

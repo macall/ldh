@@ -41,6 +41,47 @@ class OrderModel extends Model
         
         return $model->query($sql);
     }
+    
+    
+    public function get_order_list($offset = 0,$limit = '')
+    {
+        $model = new Model();
+        $sql = "SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC";
+        
+        if(!empty($limit)){
+            $sql .= ' limit %d,%d';
+        
+            return $model->query($sql,array($offset,$limit));
+        }
+        
+        return $model->query($sql);
+    }
 }
 
 ?>

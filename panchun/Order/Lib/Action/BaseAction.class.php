@@ -24,7 +24,7 @@ class BaseAction extends Action
     protected function json_error_response($error,$error_url = NULL, $code = RESPONSE_FAIL)
     {
         $res = array(
-            'status' => $code,
+            'status' => 0,
             'error_message' => $error
         );
         if (!empty($error_url))

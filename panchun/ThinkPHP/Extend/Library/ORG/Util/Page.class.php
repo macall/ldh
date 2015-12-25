@@ -19,7 +19,7 @@ class Page {
     // 分页URL地址
     public $url     =   '';
     // 默认列表每页显示行数
-    public $listRows = 1;
+    public $listRows = 10;
     // 起始行数
     public $firstRow    ;
     // 分页总页面数
@@ -79,7 +79,7 @@ class Page {
         // 分析分页参数
         if($this->url){
             $depr       =   C('URL_PATHINFO_DEPR');
-            $url        =   rtrim(U('/'.$this->url,'',false),$depr).$depr.'__PAGE__';
+            $url        =   rtrim(U('/'.$this->url,'',false),$depr).$depr.$p.$depr.'__PAGE__';
         }else{
             if($this->parameter && is_string($this->parameter)) {
                 parse_str($this->parameter,$parameter);

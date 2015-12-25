@@ -25,13 +25,16 @@ $config	= array(
         'personal_center' => 'User/personal_center',
         'my_share' => 'User/my_share',
         'my_price' => 'User/my_price',
-        'admin_login'=>'Admin/login',
-        'admin_index'=>'Admin/index',
-        'admin_logout'=>'Admin/logout',
-        'admin_order_list'=>'Admin/admin_order_list',
-        'admin_user_list'=>'Admin/admin_user_list',
+        'admin/login'=>'Admin/login',
+        'admin/index'=>'Admin/index',
+        'admin/logout'=>'Admin/logout',
+        'admin/order_list'=>'Admin/admin_order_list',
+        'admin/user_list'=>'Admin/admin_user_list',
+        'admin/order_list_export'=>'Admin/order_list_export_excel',
+        'admin/user_list_export'=>'Admin/user_list_export_excel',
+        'admin/update_order_status'=>'Admin/update_order_status',
     ),
-	'VAR_PAGE'=>'pageNum',
+	'VAR_PAGE'=>'page',
 	'PAGE_LISTROWS'=>15,  //分页 每页显示多少条
 	'PAGE_NUM_SHOWN'=>10, //分页 页标数字多少个
     /* 错误页面模板 */
