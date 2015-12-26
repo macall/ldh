@@ -244,7 +244,10 @@ class UserAction extends BaseAction
             'rest_count' => $rest_count,
             'user_name' => $user['name']
         );
-        $base_url = $_SERVER['SERVER_NAME'].__ROOT__.'?in_code='.$share_data[0]['invite_code'];
+        
+        $sys_protocal = isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == '443' ? 'https://' : 'http://';
+        
+        $base_url = $sys_protocal.$_SERVER['SERVER_NAME'].__ROOT__.'?in_code='.$share_data[0]['invite_code'];
         $this->assign('share_data', $base_url);
         $this->assign('data', $data);
         $this->display('my_share');
@@ -262,10 +265,5 @@ class UserAction extends BaseAction
         
         $this->assign('price_user_data',$price_user_data);
         $this->display('my_price');
-    }
-    
-    public function dingdan()
-    {
-        $this->display('dingdan');
     }
 }
