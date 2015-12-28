@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="/ldh/templets/css/register_css/style.css">
+    <script type="text/javascript" src="/ldh/templets/ct/js/jquery.js"></script>
+</head>
+<body>
+<div class="heder">
+    <h2>手机注册</h2>
+    <P><a href="login.html">登录</a> </P>
+</div>
+<div class="centent zhuce">
+    <form action="__APP__/register_info.html?user_id={$user_id}" method="post">
+        <ul>
+
+            <li>
+                <span>姓名</span>
+                <input type="text" name="name">
+            </li>
+            <li>
+                <span>收货地址</span>
+                <input type="text" name="address">
+            </li>
+            <li>
+                <span>密码</span>
+                <input type="password" name="password" id="pwd">
+            </li>
+            <li>
+                <span>确认密码</span>
+                <input type="password" id="pwd_rep">
+            </li>
+        </ul>
+        <ul class="botton">
+            <input type="submit" value="注册">
+        </ul>
+    </form>
+</div>
+</body>
+<script>
+    
+    $("form").submit(function(e){
+        var pwd = $('#pwd').val();
+        var pwd_rep = $('#pwd_rep').val();
+
+        if(pwd !== pwd_rep){
+            $('#pwd').val('');
+            $('#pwd_rep').val('');
+            alert('密码输入不一样,请重复输入');
+            return;
+        }
+    });
+</script>
+</html>

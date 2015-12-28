@@ -1,0 +1,2720 @@
+[ 2015-12-28T13:45:00+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:45:38+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.015600s ]
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:46:13+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:48:21+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:48:46+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002001s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:16+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:17+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:18+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:18+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:18+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002001s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+NOTIC: [8] Undefined variable: var D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given D:\WWW\ldh\ldh\ThinkPHP\Common\functions.php 第 247 行.
+
+[ 2015-12-28T13:49:46+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+
+[ 2015-12-28T13:50:46+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant __PAGE__ - assumed '__PAGE__' D:\WWW\ldh\ldh\ThinkPHP\Extend\Library\ORG\Util\Page.class.php 第 85 行.
+
+[ 2015-12-28T13:51:00+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 0,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:51:29+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:52:00+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:52:34+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:52:38+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list/page/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 10,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:52:39+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list/page/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001001s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 20,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:52:40+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list/page/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:52:50+08:00 ] 0.0.0.0 /ldh/index.php/admin/logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:52:50+08:00 ] 0.0.0.0 /ldh/index.php/admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\WWW\ldh\ldh\Src\Runtime\Cache\29400209e16ef256feee601de30fb1b2.php 第 32 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:52:58+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:52:58+08:00 ] 0.0.0.0 /ldh/index.php/admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\WWW\ldh\ldh\Src\Runtime\Cache\29400209e16ef256feee601de30fb1b2.php 第 32 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:22+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:22+08:00 ] 0.0.0.0 /ldh/index.php/admin/admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:admin
+
+[ 2015-12-28T13:53:33+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:34+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:34+08:00 ] 0.0.0.0 /ldh/index.php/admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error D:\WWW\ldh\ldh\Src\Runtime\Cache\29400209e16ef256feee601de30fb1b2.php 第 32 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:42+08:00 ] 0.0.0.0 /ldh/index.php/admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 56 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SHOW COLUMNS FROM `ldh_admin` [ RunTime:0.002000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT * FROM `ldh_admin` WHERE ( `account` = 'admin' ) AND ( `password` = 'cf153f4040af196d9646077b42083b10fbe03e1db017bbbc0a4945a54f5b54ac' ) AND ( `is_valid` = 1 )  [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:53:42+08:00 ] 0.0.0.0 /ldh/index.php/admin/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_price` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    total_search.total,
+                    used_search.used,
+                    unsed_search.unused 
+                  FROM
+                    (SELECT 
+                      COUNT(ldh_price.price_id) AS total 
+                    FROM
+                      ldh_price WHERE is_valid = 1) AS total_search 
+                  ,
+                  (SELECT 
+                    COUNT(ldh_price.price_id) AS used 
+                  FROM
+                    ldh_price 
+                  WHERE STATUS = 2 AND is_valid = 1) AS used_search 
+                  ,
+                  (SELECT 
+                    COUNT(ldh_price.price_id) AS unused 
+                  FROM
+                    ldh_price 
+                  WHERE STATUS = 1 AND is_valid = 1) AS unsed_search [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.001000s ]
+SQL: SELECT 
+                    total_order.total,
+                    done_order.done,
+                    pending_order.pending
+                FROM   
+                    (SELECT 
+                        Count(ldh_order.order_id) AS total
+                    FROM   
+                        ldh_order) AS total_order
+                ,
+                    (SELECT 
+                        Count(ldh_order.order_id) AS done
+                    FROM   
+                        ldh_order
+                    WHERE  
+                        ldh_order.status = 2
+                    AND 
+                        ldh_order.is_valid = 1) AS done_order
+                ,
+                    (SELECT 
+                        Count(ldh_order.order_id) AS pending
+                    FROM   
+                        ldh_order
+                    WHERE  
+                        ldh_order.status = 1
+                    AND 
+                        ldh_order.is_valid = 1) AS pending_order [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ldh_user` WHERE ( `is_valid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:53:44+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 0,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:53:45+08:00 ] 0.0.0.0 /ldh/index.php//ldh/index.php/admin/order_list/page/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Ldh
+
+[ 2015-12-28T13:54:12+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:12+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.000000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:12+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.000000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:13+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 10,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-28T13:54:14+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.001000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 20,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:54:15+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 30,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:16+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 40,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:54:16+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 50,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:18+08:00 ] 0.0.0.0 /ldh/index.php/admin/order_list/page/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_order` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    user_order.`order_id`,
+                    user_order.`user_id`,
+                    ldh_user.`name` AS user_name,
+                    user_order.`product`,
+                    user_order.`remark`,
+                    CONCAT(
+                      user_order.`province`,
+                      user_order.`city`,
+                      user_order.`dist`,
+                      user_order.`address`
+                    ) AS buyer_address,
+                    user_order.`tel`,
+                    user_order.`qq`,
+                    user_order.`uname`,
+                    user_order.`message`,
+                    user_order.`created_at`,
+                    user_order.`status` 
+                FROM
+                    ldh_order AS user_order 
+                LEFT 
+                    JOIN ldh_user 
+                ON 
+                    user_order.`user_id` = ldh_user.`user_id` 
+                ORDER BY 
+                    user_order.`status` ASC, 
+                    user_order.`created_at` DESC limit 0,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:20+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.001000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 0,10 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:22+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list/page/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 30,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:54:22+08:00 ] 0.0.0.0 /ldh/index.php/admin/user_list/page/3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT 
+                    ldh_user.user_id,
+                    ldh_user.tel,
+                    ldh_user.name,
+                    ldh_user.address,
+                    ldh_user.created_at,
+                    IFNULL(ldh_share.count,0) AS share_count,
+                    IFNULL(ldh_tmp_order.order_count,0) AS order_count
+                FROM
+                    ldh_user 
+                LEFT JOIN 
+                    (SELECT 
+                      user_id,
+                      COUNT(order_id) AS order_count 
+                    FROM
+                        ldh_order 
+                    GROUP BY 
+                        user_id) AS ldh_tmp_order 
+                ON 
+                    ldh_user.user_id = ldh_tmp_order.user_id 
+                LEFT JOIN 
+                    ldh_share 
+                ON 
+                    ldh_user.user_id = ldh_share.user_id 
+                ORDER BY 
+                    order_count DESC,
+                    share_count DESC limit 20,10 [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T13:57:24+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T13:59:14+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:11:02+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:11:07+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-28T14:24:18+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] dirname() expects exactly 1 parameter, 0 given D:\WWW\ldh\ldh\Src\Lib\Action\IndexAction.class.php 第 7 行.
+
+[ 2015-12-28T14:25:02+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] dirname() expects exactly 1 parameter, 0 given D:\WWW\ldh\ldh\Src\Lib\Action\IndexAction.class.php 第 7 行.
+
+[ 2015-12-28T14:25:20+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:32:16+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:32:22+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:32:24+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:32:35+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15828595707
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15828595707' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant RESPONSE_FAIL - assumed 'RESPONSE_FAIL' D:\WWW\ldh\ldh\Src\Lib\Action\BaseAction.class.php 第 24 行.
+
+[ 2015-12-28T14:32:47+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15858528585
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15858528585' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:36:28+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15828595707
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15828595707' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant RESPONSE_FAIL - assumed 'RESPONSE_FAIL' D:\WWW\ldh\ldh\Src\Lib\Action\BaseAction.class.php 第 24 行.
+
+[ 2015-12-28T14:36:50+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:36:51+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:36:51+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:37:01+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15896857485
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15896857485' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:38:03+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15896857485
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.003001s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15896857485' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:38:13+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:38:26+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:39:09+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:39:09+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:39:09+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:39:09+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:39:10+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:39:32+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:43:06+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:43:23+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:44:03+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:44:15+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:46:59+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-28T14:47:02+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:51:05+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T14:51:15+08:00 ] 0.0.0.0 /ldh/index.php/register_tel.html?tel=15899999999
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ldh_user` [ RunTime:0.001000s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given D:\WWW\ldh\ldh\ThinkPHP\Common\common.php 第 110 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `ldh_user` WHERE ( `tel` = '15899999999' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-12-28T15:35:08+08:00 ] 0.0.0.0 /ldh/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

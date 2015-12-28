@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>我的分享</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="/ldh/templets/css/register_css/style.css">
+        <script type="text/javascript" src="/ldh/templets/ct/js/jquery.js"></script>
+    </head>
+    <body>
+        <div class="heder dider">
+            <h2>我的分享</h2>
+            <a href="__APP__/personal_center.html"><img src="/ldh/templets/images/icon11_1.png"></a>
+        </div>
+        <div class="cenuce yuanyz">
+            <ul>
+                <li>
+                    当前用户<i>{$data['user_name']}</i>
+                    已成功分享<i>{$data['count']}次</i>，
+                    <?php 
+                        if(($data['count'] != 0) && ($data['count']%20 == 0)){
+                            echo '已有新奖品发放，请去我的奖励查看。下一次';
+                        }
+                    ?>
+                    还差<i>{$data['rest_count']}次</i>
+                    即可领取奖品,<i>长按复制</i>以下链接分享到朋友圈！
+                    <br>
+                    <br>
+                    <span>{$share_data}</span>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

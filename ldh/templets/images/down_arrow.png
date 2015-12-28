@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404错误 -P57减肥网</title>
+<script language="javascript" type="text/javascript"> 
+var i = 5; 
+var intervalid; 
+intervalid = setInterval("fun()", 1000); 
+function fun() { 
+if (i == 0) { 
+window.location.href = "../../../www.p57.me/sitemap.html"; 
+clearInterval(intervalid); 
+} 
+document.getElementById("mes").innerHTML = i; 
+i--; 
+} 
+</script> 
+<style>
+h2 { -moz-user-select: none; cursor: default; font-size: 0; left: 0; margin: 0; text-indent: -999px; top: 0;  z-index: 1;}
+h2 em { color: rgba(216, 226, 244, 0.3);  display: block; font: italic bold 200px/120px "Times New Roman",Times,Serif;letter-spacing: -5px; text-indent: 0;}
+.portal {  background:#fff; border: 1px solid #9eaa99; border-radius: 3px;  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); color: #000000; height: 38px; line-height: 35px; margin: 0 auto; text-align: center; white-space: nowrap; width: 720px; word-spacing: 0.45em;}
+.portal a:link, .portal a:visited {
+    color: #66CC66;
+    word-spacing: 0;
+}
+.portal a:hover, .portal a:active {
+    color: #007ab7;
+}
+.portal span span {
+    padding: 0 0 0 20px;
+}
+</style>
+
+</head>
+<body>
+<h2>
+<em>404 Error</em>
+: 抱歉, 您所查找的页面不存在, 可能已被删除或您输错了网址!
+</h2>
+<p class="portal">
+<a href="../../../www.p57.me/default.htm">返回首页</a>
+|
+<a href="../../../www.p57.me/p57/default.htm">瘦身资讯</a>
+|
+<a href="../../../www.p57.me//p57/dj/default.htm">p57打假中心</a>
+|
+<a href="../../../www.p57.me//p57/gg/default.htm">官方公告</a>
+|
+<a href="javascript:openZoosUrl('chatwin');">在线咨询</a>
+</p>
+<div style="width:650px; margin:10px auto; padding:0px;">
+<p style="font-size:30px;">页面没有找到<span id="mes">5</span> 秒钟之后将会带您进入导航页!</p>
+<img src="../../../www.p57.me/images/p57_5F404.jpg" alt="404错误" />
+<BR>有任何疑问请联系P57官网电话：400685315。<BR>
+<A href="mailto:@163.com">或者点击这里发送邮件。</a> 
+</div>
+</body>
+</html>
